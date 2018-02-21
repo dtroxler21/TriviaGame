@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Trivia Game</title>
+	<!-- linking other files and jquery-->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Teko" rel="stylesheet">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<h1>UNC Basketball Trivia</h1>
+
+		<br>
+
+		<!-- Used to start the game -->
+		<div>
+			<button id="start-button">Start</button>
+		</div>
+		
+		<div id="content">
+			<!-- Used to show timer -->
+			<div id="timer">
+			</div>
+			
+			<br>
+
+			<!-- Used to show question -->
+			<div id="question">
+			</div>
+
+			<!-- Used to show result -->
+			<div id="result">
+			</div>
+			
+			<br>
+
+			<!-- Used to show answer choices -->
+			<div id="answer-choices">
+				<h2 class="answer-choices" id="0"></h2>
+				<h2 class="answer-choices" id="1"></h2>
+				<h2 class="answer-choices" id="2"></h2>
+				<h2 class="answer-choices" id="3"></h2>
+			</div>
+			
+			<!-- Used to show correct answer -->
+			<div id="correct-answer">
+			</div>
+
+			<!-- Used to show gifs -->
+			<div id="images">
+			</div>
+			
+			<!-- Used to show stats at the end of the agme -->
+			<div id="stats">
+			</div>
+
+			<!-- Used to restart the game -->
+			<div id="restart-button">
+			</div>
+		
+		</div>
+	
+	</div>
+
+	<!-- Linking js file after the html content -->
+	<script src="assets/javascript/app.js" type="text/javascript"></script>	
+	
+</body>
+</html>

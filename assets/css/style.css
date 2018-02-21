@@ -1,0 +1,27 @@
+body {
+	background-image: url("../images/background.jpg");
+	background-repeat: repeat-x repeat-y;
+	text-align: center;
+	overflow: auto;
+}
+
+.container {
+	width: 620px;
+	height: 600px;
+	background-color: #4B9CD3;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 50px;
+}
+
+h1, h2, h3, #start-button, #restart-button, #stats, .answer-choices, #correct-answer, #question, #result, #timer {
+	font-family: 'Teko', sans-serif;	
+}
+
+h1 {
+	font-size: 50px;
+}
+
+#start-button, #restart-button {
+	font-size: 30px;
+}
